@@ -1,0 +1,213 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "WebApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Swashbuckle.AspNetCore": "6.5.0",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApi.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "WebApi/1.0.0": {
+      "type": "project",
+      "path": "../WebApi/WebApi.csproj",
+      "msbuildProject": "../WebApi/WebApi.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "AutoFixture >= 4.18.0",
+      "MSTest.TestAdapter >= 2.2.8",
+      "MSTest.TestFramework >= 2.2.8",
+      "Microsoft.Extensions.Logging.Abstractions >= 7.0.1",
+      "Microsoft.NET.Test.Sdk >= 17.1.0",
+      "Moq >= 4.20.69",
+      "WebApi >= 1.0.0",
+      "coverlet.collector >= 3.1.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\talmeida\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\talmeida\\OneDrive - CRITICAL SOFTWARE, S.A\\Documents\\CSW_PROJECTS\\RD_AI\\RD_AI_UseCase 1\\DevOpsAI.UseCaseCP\\UseCaseCP\\WebApiTests\\WebApiTests.csproj",
+      "projectName": "WebApiTests",
+      "projectPath": "C:\\Users\\talmeida\\OneDrive - CRITICAL SOFTWARE, S.A\\Documents\\CSW_PROJECTS\\RD_AI\\RD_AI_UseCase 1\\DevOpsAI.UseCaseCP\\UseCaseCP\\WebApiTests\\WebApiTests.csproj",
+      "packagesPath": "C:\\Users\\talmeida\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\talmeida\\OneDrive - CRITICAL SOFTWARE, S.A\\Documents\\CSW_PROJECTS\\RD_AI\\RD_AI_UseCase 1\\DevOpsAI.UseCaseCP\\UseCaseCP\\WebApiTests\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\talmeida\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\talmeida\\OneDrive - CRITICAL SOFTWARE, S.A\\Documents\\CSW_PROJECTS\\RD_AI\\RD_AI_UseCase 1\\DevOpsAI.UseCaseCP\\UseCaseCP\\WebApi\\WebApi.csproj": {
+              "projectPath": "C:\\Users\\talmeida\\OneDrive - CRITICAL SOFTWARE, S.A\\Documents\\CSW_PROJECTS\\RD_AI\\RD_AI_UseCase 1\\DevOpsAI.UseCaseCP\\UseCaseCP\\WebApi\\WebApi.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "AutoFixture": {
+            "target": "Package",
+            "version": "[4.18.0, )"
+          },
+          "MSTest.TestAdapter": {
+            "target": "Package",
+            "version": "[2.2.8, )"
+          },
+          "MSTest.TestFramework": {
+            "target": "Package",
+            "version": "[2.2.8, )"
+          },
+          "Microsoft.Extensions.Logging.Abstractions": {
+            "target": "Package",
+            "version": "[7.0.1, )"
+          },
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[17.1.0, )"
+          },
+          "Moq": {
+            "target": "Package",
+            "version": "[4.20.69, )"
+          },
+          "coverlet.collector": {
+            "target": "Package",
+            "version": "[3.1.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'AutoFixture (>= 4.18.0)' for 'net6.0'.",
+      "libraryId": "AutoFixture",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Extensions.Logging.Abstractions (>= 7.0.1)' for 'net6.0'.",
+      "libraryId": "Microsoft.Extensions.Logging.Abstractions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.NET.Test.Sdk (>= 17.1.0)' for 'net6.0'.",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Moq (>= 4.20.69)' for 'net6.0'.",
+      "libraryId": "Moq",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'MSTest.TestAdapter (>= 2.2.8)' for 'net6.0'.",
+      "libraryId": "MSTest.TestAdapter",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'MSTest.TestFramework (>= 2.2.8)' for 'net6.0'.",
+      "libraryId": "MSTest.TestFramework",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'coverlet.collector (>= 3.1.2)' for 'net6.0'.",
+      "libraryId": "coverlet.collector",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Swashbuckle.AspNetCore (>= 6.5.0)' for 'net6.0'.",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'System.Data.SqlClient (>= 4.8.5)' for 'net6.0'.",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

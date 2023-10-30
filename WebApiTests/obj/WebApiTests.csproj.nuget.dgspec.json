@@ -1,0 +1,155 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\talmeida\\OneDrive - CRITICAL SOFTWARE, S.A\\Documents\\CSW_PROJECTS\\RD_AI\\RD_AI_UseCase 1\\DevOpsAI.UseCaseCP\\UseCaseCP\\WebApiTests\\WebApiTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\talmeida\\OneDrive - CRITICAL SOFTWARE, S.A\\Documents\\CSW_PROJECTS\\RD_AI\\RD_AI_UseCase 1\\DevOpsAI.UseCaseCP\\UseCaseCP\\WebApiTests\\WebApiTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\talmeida\\OneDrive - CRITICAL SOFTWARE, S.A\\Documents\\CSW_PROJECTS\\RD_AI\\RD_AI_UseCase 1\\DevOpsAI.UseCaseCP\\UseCaseCP\\WebApiTests\\WebApiTests.csproj",
+        "projectName": "WebApiTests",
+        "projectPath": "C:\\Users\\talmeida\\OneDrive - CRITICAL SOFTWARE, S.A\\Documents\\CSW_PROJECTS\\RD_AI\\RD_AI_UseCase 1\\DevOpsAI.UseCaseCP\\UseCaseCP\\WebApiTests\\WebApiTests.csproj",
+        "packagesPath": "C:\\Users\\talmeida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\talmeida\\OneDrive - CRITICAL SOFTWARE, S.A\\Documents\\CSW_PROJECTS\\RD_AI\\RD_AI_UseCase 1\\DevOpsAI.UseCaseCP\\UseCaseCP\\WebApiTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\talmeida\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\talmeida\\OneDrive - CRITICAL SOFTWARE, S.A\\Documents\\CSW_PROJECTS\\RD_AI\\RD_AI_UseCase 1\\DevOpsAI.UseCaseCP\\UseCaseCP\\WebApi\\WebApi.csproj": {
+                "projectPath": "C:\\Users\\talmeida\\OneDrive - CRITICAL SOFTWARE, S.A\\Documents\\CSW_PROJECTS\\RD_AI\\RD_AI_UseCase 1\\DevOpsAI.UseCaseCP\\UseCaseCP\\WebApi\\WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.18.0, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.69, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\talmeida\\OneDrive - CRITICAL SOFTWARE, S.A\\Documents\\CSW_PROJECTS\\RD_AI\\RD_AI_UseCase 1\\DevOpsAI.UseCaseCP\\UseCaseCP\\WebApi\\WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\talmeida\\OneDrive - CRITICAL SOFTWARE, S.A\\Documents\\CSW_PROJECTS\\RD_AI\\RD_AI_UseCase 1\\DevOpsAI.UseCaseCP\\UseCaseCP\\WebApi\\WebApi.csproj",
+        "projectName": "WebApi",
+        "projectPath": "C:\\Users\\talmeida\\OneDrive - CRITICAL SOFTWARE, S.A\\Documents\\CSW_PROJECTS\\RD_AI\\RD_AI_UseCase 1\\DevOpsAI.UseCaseCP\\UseCaseCP\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\talmeida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\talmeida\\OneDrive - CRITICAL SOFTWARE, S.A\\Documents\\CSW_PROJECTS\\RD_AI\\RD_AI_UseCase 1\\DevOpsAI.UseCaseCP\\UseCaseCP\\WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\talmeida\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

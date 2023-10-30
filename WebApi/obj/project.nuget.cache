@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "z61GnRHKrl9+ZzW0VCSfL21yy7pyHFlWs14F1TcVWrKxwmgB9RjInZjZnwDX8k35xqzBBSFgim8icYOka14GwQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\talmeida\\OneDrive - CRITICAL SOFTWARE, S.A\\Documents\\CSW_PROJECTS\\RD_AI\\RD_AI_UseCase 1\\DevOpsAI.UseCaseCP\\UseCaseCP\\WebApi\\WebApi.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Swashbuckle.AspNetCore (>= 6.5.0)' for 'net6.0'.",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'System.Data.SqlClient (>= 4.8.5)' for 'net6.0'.",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

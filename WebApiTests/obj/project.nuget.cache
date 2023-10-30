@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qt4nCKolAfjz6CIEjsSkeSoGI5viCaIzlOh9czGR4yBhFTLfJGhY5zpicPzqH45S4t5Q50BBTdX7zHiJv9MiLg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\talmeida\\OneDrive - CRITICAL SOFTWARE, S.A\\Documents\\CSW_PROJECTS\\RD_AI\\RD_AI_UseCase 1\\DevOpsAI.UseCaseCP\\UseCaseCP\\WebApiTests\\WebApiTests.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'AutoFixture (>= 4.18.0)' for 'net6.0'.",
+      "libraryId": "AutoFixture",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Extensions.Logging.Abstractions (>= 7.0.1)' for 'net6.0'.",
+      "libraryId": "Microsoft.Extensions.Logging.Abstractions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.NET.Test.Sdk (>= 17.1.0)' for 'net6.0'.",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Moq (>= 4.20.69)' for 'net6.0'.",
+      "libraryId": "Moq",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'MSTest.TestAdapter (>= 2.2.8)' for 'net6.0'.",
+      "libraryId": "MSTest.TestAdapter",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'MSTest.TestFramework (>= 2.2.8)' for 'net6.0'.",
+      "libraryId": "MSTest.TestFramework",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'coverlet.collector (>= 3.1.2)' for 'net6.0'.",
+      "libraryId": "coverlet.collector",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Swashbuckle.AspNetCore (>= 6.5.0)' for 'net6.0'.",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'System.Data.SqlClient (>= 4.8.5)' for 'net6.0'.",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
