@@ -19,12 +19,12 @@ pipeline {
       }
     }
     
-    #stage('Deploy') {
-    #  steps {
-    #    withCredentials([azureServicePrincipal('azure-credentials')]) {
-    #      azureWebAppPublish appName: 'WebApiTFApp', filePath: 'publish', resourceGroup: 'DESWebApiTF', slotName: 'production', subscriptionId: credentials('azure-subscription-id'), tenantId: credentials('azure-tenant-id')
-    #    }
-    #  }
-    #}
+    //stage('Deploy') {
+    //  steps {
+    //    withCredentials([azureServicePrincipal('azure-credentials')]) {
+    //      azureWebAppPublish appName: 'WebApiTFApp', filePath: 'publish', resourceGroup: 'DESWebApiTF', slotName: 'production', subscriptionId: credentials('azure-subscription-id'), tenantId: credentials('azure-tenant-id')
+    //    }
+    //  }
+    //}
   }
 }
